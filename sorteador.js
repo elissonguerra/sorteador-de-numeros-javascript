@@ -22,11 +22,11 @@ while (tentativa < maximoTentativas) {
         tentativa++;
 
         if (numDigitado != sorteio && tentativa > 4) {
-            console.log("Você perdeu!!!");    
+            console.log(`Você perdeu!!! O número sorteado era o ${sorteio}`);    
         }
     
     } else {
-        console.log("Parabéns. Você acertou")
+        console.log(`Parabéns!!! Você acertou na ${tentativa}ª tentativa.`);
         break;
     }        
 }
